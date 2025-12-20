@@ -24,5 +24,5 @@ def thanos_project(folder_name="thanos_folder", file_count=10):
     remaining_files = os.listdir(folder_name)
     print(f"Files after deletion: {len(remaining_files)}")
 
-# Example usage
+
 thanos_project("thanos_folder", 10)
